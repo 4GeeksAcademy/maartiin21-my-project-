@@ -1,0 +1,35 @@
+body {
+    background-color: grey;
+    margin: 0;
+}
+header {
+    background: white;
+}
+header h1 {
+margin: 0;
+}
+div.post {
+background-color: white;
+border: 1px solid;
+margin-top: 40px;
+margin-block: 0px;
+}
+div.post img {
+width:100%;
+height: auto;
+}
+div.post .post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+.post h2,
+.post span{
+    padding: 15px 15px;
+    margin: 0;
+}
+div.container {
+    width: 600px;
+    margin: auto;
+}
